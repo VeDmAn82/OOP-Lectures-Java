@@ -40,9 +40,8 @@ public class Point2D {
         this.y = value;
     }
 
-    
     private String getInfo(){
-        return String.format("x: %d; y: %d", x, y);
+        return String.format("x: %s; y: %s", x, y);
     }
     @Override
     public String toString() {
@@ -52,9 +51,4 @@ public class Point2D {
     public static double distance(Point2D a, Point2D b) {
         return Math.sqrt(Math.pow(a.x - b.x, 2) + Math.pow(a.y - b.y, 2));
     }
-
-    // ctor
-    // get; set;
-    // docs
-    //
 }

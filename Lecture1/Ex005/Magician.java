@@ -40,7 +40,7 @@ public class Magician {
     }
 
     public String getInfo() {
-        return String.format("Name: %s  Hp: %d Enegry:  %d Type: %s",
+        return String.format("Name: %s  Hp: %d Enegry: %d Type: %s",
                 this.name, this.hp, this.mana, this.getClass().getSimpleName());
     }
     

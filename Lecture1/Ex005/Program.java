@@ -8,7 +8,7 @@ public class Program {
         Priest hero2 = new Priest();
         System.out.println(hero2.getInfo());
 
-        Priest hero3 = new Priest();
+        Magician hero3 = new Magician();
         System.out.println(hero3.getInfo());
 
     }
