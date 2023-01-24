@@ -1,4 +1,4 @@
-package Lesson_08.Ex002;
+package Lecture2.Ex002;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,29 +37,29 @@ public class Program {
         // #endregion
         // #region
 
-        BaseHero hero = new BaseHero();
-        System.out.println(hero.getInfo());
-        Priest priest = new Priest();
-        System.out.println(priest.getInfo());
-        Druid druid = new Druid();
-        System.out.println(druid.getInfo());
-        Magician magician = new Magician();
-        System.out.println(magician.getInfo());
+        // BaseHero hero = new BaseHero();
+        // System.out.println(hero.getInfo());
+        // Priest priest = new Priest();
+        // System.out.println(priest.getInfo());
+        // Druid druid = new Druid();
+        // System.out.println(druid.getInfo());
+        // Magician magician = new Magician();
+        // System.out.println(magician.getInfo());
 
-        priest.attack(magician);
-        System.out.println(magician.getInfo());
-        priest.attack(magician);
-        System.out.println(magician.getInfo());
-        druid.healing(magician);
-        System.out.println(magician.getInfo());
-        druid.healing(magician);
-        System.out.println(magician.getInfo());
-        druid.healing(magician);
-        System.out.println(magician.getInfo());
-        druid.healing(magician);
-        System.out.println(magician.getInfo());
-        druid.healing(magician);
-        System.out.println(magician.getInfo());
+        // priest.attack(magician);
+        // System.out.println(magician.getInfo());
+        // priest.attack(magician);
+        // System.out.println(magician.getInfo());
+        // druid.healing(magician);
+        // System.out.println(magician.getInfo());
+        // druid.healing(magician);
+        // System.out.println(magician.getInfo());
+        // druid.healing(magician);
+        // System.out.println(magician.getInfo());
+        // druid.healing(magician);
+        // System.out.println(magician.getInfo());
+        // druid.healing(magician);
+        // System.out.println(magician.getInfo());
 
         // #endregion
 

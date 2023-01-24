@@ -1,4 +1,4 @@
-package Lesson_08.Ex006.Document;
+package Lecture2.Ex006.Document;
 
 public class TextDocument {
 

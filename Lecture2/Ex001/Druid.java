@@ -1,11 +1,11 @@
-package Lesson_08.Ex001;
+package Lecture2.Ex001;
 
 public class Druid extends BaseHero {
     private int harmony;
     private int maxHarmony;
 
     public Druid() {
-        super(String.format("Hero_Druid #%d", ++Druid.number),
+        super(String.format("Hero_Druid #%d", ++Magician.number),
                 Magician.r.nextInt(100, 200));
         this.maxHarmony = Magician.r.nextInt(50, 150);
         this.harmony = maxHarmony;
